@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+}
+img{
+    width: 100%;
+}
+section{
+    max-width: 600px;
+    margin: auto;
+} 
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    margin-top: 100px;
+}
+
+img{
+    width: 100%;
+    height: 420px;
+    border-radius: 10px 0 0 10px;
+}
+.card-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+    color: black;
+}
+.card-content span{
+    text-transform: uppercase;
+    color: hsl(228, 12%, 48%);
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.card-content .title{
+    font-family: "Fraunces", serif;
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.card-content p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.price{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.price h3{
+    font-family: "Fraunces", serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 30px;
+    margin-right: 20px;
+}
+.price span{
+    display: inline-block;
+    text-decoration: line-through;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 19px;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    transition: .3s ease-in-out;
+}
+.btn:hover{
+    border-radius: 20px;
+    background-color: hsl(158, 43%, 31%);
+}
