@@ -82,3 +82,17 @@ img{
     border-radius: 20px;
     background-color: hsl(158, 43%, 31%);
 }
+
+/* BreakPoint */
+@media screen and (max-width: 600px) {
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
+    img{
+        border-radius: 0;
+    }
+    .card-content{
+        border-radius: 0;
+    }
+}
